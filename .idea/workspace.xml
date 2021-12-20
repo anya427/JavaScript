@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="ff299c67-eb5e-4e8b-8b2b-33267d13cb46" name="默认的" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CoverageViewManager">
+    <option name="myElementSize" value="321" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1yAIRMrUkp2gHCkR1Scf2fSYbYc" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+  </component>
+  <component name="RunManager" selected="JavaScript Debug.js操作内联样式.html">
+    <configuration name="DOM.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/JS/0915/DOM.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <configuration name="全选练习.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/JS/0917/全选练习.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <configuration name="js操作内联样式.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/JS/0923/js操作内联样式.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JavaScript Debug.js操作内联样式.html" />
+        <item itemvalue="JavaScript Debug.全选练习.html" />
+        <item itemvalue="JavaScript Debug.DOM.html" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="ff299c67-eb5e-4e8b-8b2b-33267d13cb46" name="默认的" comment="" />
+      <created>1631687956665</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1631687956665</updated>
+      <workItem from="1631687960939" duration="4111000" />
+      <workItem from="1631849279636" duration="13257000" />
+      <workItem from="1632293943289" duration="2347000" />
+      <workItem from="1632362368218" duration="3976000" />
+      <workItem from="1632635478851" duration="3162000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state width="1664" height="242" key="GridCell.Tab.0.bottom" timestamp="1631879528619">
+      <screen x="0" y="0" width="1707" height="920" />
+    </state>
+    <state width="1664" height="242" key="GridCell.Tab.0.bottom/-2560.0.1280.770/0.0.1707.920@0.0.1707.920" timestamp="1631879528619" />
+    <state width="1664" height="242" key="GridCell.Tab.0.center" timestamp="1631879528618">
+      <screen x="0" y="0" width="1707" height="920" />
+    </state>
+    <state width="1664" height="242" key="GridCell.Tab.0.center/-2560.0.1280.770/0.0.1707.920@0.0.1707.920" timestamp="1631879528618" />
+    <state width="1664" height="242" key="GridCell.Tab.0.left" timestamp="1631879528618">
+      <screen x="0" y="0" width="1707" height="920" />
+    </state>
+    <state width="1664" height="242" key="GridCell.Tab.0.left/-2560.0.1280.770/0.0.1707.920@0.0.1707.920" timestamp="1631879528618" />
+    <state width="1664" height="242" key="GridCell.Tab.0.right" timestamp="1631879528618">
+      <screen x="0" y="0" width="1707" height="920" />
+    </state>
+    <state width="1664" height="242" key="GridCell.Tab.0.right/-2560.0.1280.770/0.0.1707.920@0.0.1707.920" timestamp="1631879528618" />
+    <state width="1686" height="242" key="GridCell.Tab.1.bottom" timestamp="1631879277919">
+      <screen x="0" y="0" width="1707" height="920" />
+    </state>
+    <state width="1686" height="242" key="GridCell.Tab.1.bottom/-2560.0.1280.770/0.0.1707.920@0.0.1707.920" timestamp="1631879277919" />
+    <state width="1686" height="242" key="GridCell.Tab.1.center" timestamp="1631879277919">
+      <screen x="0" y="0" width="1707" height="920" />
+    </state>
+    <state width="1686" height="242" key="GridCell.Tab.1.center/-2560.0.1280.770/0.0.1707.920@0.0.1707.920" timestamp="1631879277919" />
+    <state width="1686" height="242" key="GridCell.Tab.1.left" timestamp="1631879277919">
+      <screen x="0" y="0" width="1707" height="920" />
+    </state>
+    <state width="1686" height="242" key="GridCell.Tab.1.left/-2560.0.1280.770/0.0.1707.920@0.0.1707.920" timestamp="1631879277919" />
+    <state width="1686" height="242" key="GridCell.Tab.1.right" timestamp="1631879277919">
+      <screen x="0" y="0" width="1707" height="920" />
+    </state>
+    <state width="1686" height="242" key="GridCell.Tab.1.right/-2560.0.1280.770/0.0.1707.920@0.0.1707.920" timestamp="1631879277919" />
+    <state width="1686" height="242" key="GridCell.Tab.2.bottom" timestamp="1631879277920">
+      <screen x="0" y="0" width="1707" height="920" />
+    </state>
+    <state width="1686" height="242" key="GridCell.Tab.2.bottom/-2560.0.1280.770/0.0.1707.920@0.0.1707.920" timestamp="1631879277920" />
+    <state width="1686" height="242" key="GridCell.Tab.2.center" timestamp="1631879277919">
+      <screen x="0" y="0" width="1707" height="920" />
+    </state>
+    <state width="1686" height="242" key="GridCell.Tab.2.center/-2560.0.1280.770/0.0.1707.920@0.0.1707.920" timestamp="1631879277919" />
+    <state width="1686" height="242" key="GridCell.Tab.2.left" timestamp="1631879277919">
+      <screen x="0" y="0" width="1707" height="920" />
+    </state>
+    <state width="1686" height="242" key="GridCell.Tab.2.left/-2560.0.1280.770/0.0.1707.920@0.0.1707.920" timestamp="1631879277919" />
+    <state width="1686" height="242" key="GridCell.Tab.2.right" timestamp="1631879277920">
+      <screen x="0" y="0" width="1707" height="920" />
+    </state>
+    <state width="1686" height="242" key="GridCell.Tab.2.right/-2560.0.1280.770/0.0.1707.920@0.0.1707.920" timestamp="1631879277920" />
+    <state x="516" y="195" width="672" height="678" key="search.everywhere.popup" timestamp="1632294378399">
+      <screen x="0" y="0" width="1707" height="920" />
+    </state>
+    <state x="516" y="195" width="672" height="678" key="search.everywhere.popup/-2560.0.1280.770/0.0.1707.920@0.0.1707.920" timestamp="1632294378399" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/JS$_html.dat" NAME="全选练习.html Coverage Results" MODIFIED="1631932511555" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="WipCoverageRunner" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+  </component>
+</project>

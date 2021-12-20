@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>事件对象</title>
+</head>
+
+<style>
+    body {
+        text-align: center;
+    }
+
+    .div0 {
+        margin: 0 auto;
+        /* background-color: aqua; */
+        width: 300px;
+        margin: 0 auto;
+    }
+
+    .div1 {
+        width: 300px;
+        height: 200px;
+        border: 1px solid #000;
+        border-radius: 30px;
+
+    }
+
+    .div2 {
+        width: 300px;
+        height: 50px;
+        border: 1px solid #000;
+        margin-top: 50px;
+        border-radius: 30px;
+    }
+</style>
+
+<script>
+    window.onload = function () {
+        var areaDiv = document.getElementById("areaDiv");
+        var showMsg = document.getElementById("showMsg");
+
+        // onmousemove当鼠标移动时被触发
+
+        //事件对象-当事件的响应函数被触发时，浏览器每次都会将一个事件对象作为实参传递进响应函数
+        areaDiv.onmousemove = function (event) {
+
+
+            var x = event.clientX;
+            var y = event.clientY;
+
+            // alert(event);
+
+            //在showMsg中显示鼠标的坐标
+            showMsg.innerHTML = "x = " + x + " , y = " + y;
+
+        };
+    }
+
+
+</script>
+
+<body>
+    <div class="div0">
+        <div id="areaDiv" class="div1"></div>
+        <div id="showMsg" class="div2"></div>
+    </div>
+
+
+</body>
+
+</html>

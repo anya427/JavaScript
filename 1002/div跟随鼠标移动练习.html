@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>跟随鼠标移动练习</title>
+</head>
+
+<style>
+    .div1{
+        width: 100px;
+        height: 100px;
+        background-color: red;
+        /* 设置绝对定位才能使偏移量有效 */
+        position: absolute;
+        border-radius: 50%;
+    }
+
+</style>
+
+<script>
+    window.onload = function(){
+        //使div跟随鼠标移动
+        var box1 = document.getElementById("box1");
+
+        document.onmousemove = function(event){
+            //获取到鼠标的坐标
+            //解决兼容性的问题
+            event = event || window.event;
+
+            //获取到鼠标的坐标 clientX和clientY获取的位置是相对于可视窗口的
+            // var left = event.clientX;
+            // var top = event.clientY;
+
+            //pageX和pageY相对与整个页面
+            var left = event.pageX;
+            var top = event.pageY;
+
+            //设置box1的偏移量
+            box1.style.left = left + "px";
+            box1.style.top = top + "px";
+
+        }
+    }
+
+</script>
+<body>
+    <div class="div1" id="box1">
+
+    </div>
+    
+</body>
+</html>

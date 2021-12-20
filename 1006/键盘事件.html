@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #box1{
+            width: 200px;
+            height: 200px;
+            background-color: red;
+            position: absolute;
+        }
+    </style>
+
+    <script>
+        window.onload = function(){
+            //使div根据不同的方向键盘向不同的方向移动，左键左移，右键右移
+            document.onkeydown = function(event){
+                console.log(event.keyCode  );
+            };
+
+        };
+    </script>
+</head>
+<body>
+    <div id="box1">
+
+    </div>
+</body>
+</html>

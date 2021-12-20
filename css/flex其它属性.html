@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<style>
+#box0{
+        width: 400px;
+        height: 500px;
+        background-color: violet;
+        display: flex;
+    }
+
+    #box0 div{
+        width: 200px;
+        height: 200px;
+        background-color: yellow;
+        /* 规定子元素的基准值，设置后则本来宽度作废 */
+        /* flex-basis: 50px; */
+
+    }
+
+    /* 
+    400-50-100=250px
+    250/5=50
+    50+50
+    100+200
+     */
+
+    #div0 div:nth-child(1){
+        flex-basis: 50px;
+        flex-grow:1;
+    }
+    #div0 div:nth-child(2){
+        flex-basis: 100px;
+        flex-grow:4;
+    }
+</style>
+<body>
+    <div id="box0">
+        <div></div>
+        <div></div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>强制类型转换</title>
+
+    <script>
+        // 强制转换成字符串，toString()不能用于null和Undefined，String()可以
+        var a =1234;
+        var b = a.toString();
+
+        console.log(typeof a);
+        console.log(typeof b);
+
+        //强制转换成数字， Number()转换的变量中不能含有字符串
+        //若想转换字符串，使用parseInt() 字符串转换成整数,提取有效的整数内容。 pasreFloat() 字符串转换成小数
+
+        var a = "123px";
+        var b = "1234"
+        b = Number(b);
+        a = parseInt(a);
+
+        console.log(a);
+        console.log(b);
+
+
+    </script>
+</head>
+<body>
+    
+</body>
+</html>

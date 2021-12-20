@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <script>
+        window.onload = function(){
+            //点击按钮以后弹出一个内容,若绑定了两个点击事件，那么后边的单击响应会覆盖前边的事件
+            var btn01 = document.getElementById("btn01");
+            // btn01.onclick = function(){
+            //     alert("1");
+            // }
+            //addEventListener（）函数可以为元素添加绑定函数，有三个参数：
+                //1.事件的字符串，不要on
+                //2.回调函数，当事件触发时该函数会被调用
+                //3.是否在捕获阶段触发事件，需要一个布尔值，一般都传入false
+                //addEventListener中的this是绑定事件的对象
+            btn01.addEventListener("click",function(){
+                alert("1");
+                alert("2");
+            },false)
+        }
+    </script>
+</head>
+<body>
+    
+    <button id="btn01">点一次</button>
+</body>
+</html>

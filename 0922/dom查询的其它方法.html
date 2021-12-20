@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>dom查询</title>
+
+    <script>
+        window.onload = function () {
+
+            //可直接获取body
+            var body = document.body;
+
+            //根据元素的class属性查询一组元素的节点对象.IE8以下的不支持
+            var box1 = document.getElementsByClassName('box1');
+
+            console.log(box1);
+
+            var box1 = document.querySelector('.box1')
+            //可返回多个
+            var box2 = document.querySelectorAll('.box2')
+        }
+    </script>
+</head>
+<body>
+<div class="box1"></div>
+<div class="bod2">
+    <div class="bod2"></div>
+</div>
+
+</body>
+</html>

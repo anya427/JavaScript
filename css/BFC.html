@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+/* 1. 在一个IFC里，盒是一个接一个从顶部水平放置。 */
+div {
+    /* 5.当内部的容器盒子太多了一个line box装不下来，他们折行之后会变成两个多个line box， line box们垂直方向无间隔地堆叠，但不能重叠 */
+    width: 1000px;
+    border: 5px solid;
+}
+strong,
+span,
+b,
+i {
+    border: 2px solid #f60;
+}
+strong {
+    /* 2. 摆放这些框，它们水平方向的margin,padding,border所占空间会被计内。 */
+    margin: 50px;
+    padding: 20px;
+}
+b {
+    /* 3. 行盒的高度由行盒内最高的inline boxes决定。 */
+    font-size: 30px;
+    /* line-height: 100px; */
+    /* 4.垂直方向，可通过vertical-align设置文本基线，取值可以是具体像素值，以是middle等方向词。 */
+    vertical-align: middle;
+}
+i {
+    /* 6.浮动后IFC内部的浮动元素宽高参与IFC的line-box宽高计算并且从换行后开始排列 */
+    float: left;
+    width: 200px;
+    height: 50px;
+}
+em {
+    border: 4px solid #09f;
+    /* 行高的影响 */
+    /* line-height: 100px; */
+}
+
+</style>
+<body>
+    
+<div>
+    <!-- 块元素内没有块元素 -->
+    <strong>众里寻她千百度</strong>
+    <span>会挽雕弓如满月 <em>西北望，射天狼</em></span>
+    <b>衣带渐宽终不悔</b>
+    <i>昨夜西风凋碧树</i>
+</div>
+  
+</body>
+</html>
